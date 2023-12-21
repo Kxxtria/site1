@@ -1,0 +1,319 @@
+header {
+    margin: 0%;
+    padding: 0;
+    height: 85px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 16% 70% 14%;
+    align-content: center;
+    align-items: center;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0;
+}
+.superbloom{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0%;
+    padding: 0%;
+}
+.panel{ 
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 45%;
+    margin-right: 5%;
+    align-items: center;
+
+    }
+.panel a{ text-decoration: none;
+    margin: 0;
+    padding: 0%;
+    color: #00402f;
+    font-size: 12px;
+}
+.sign {
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: flex-start;
+    background-color: #00402f;
+    height: 85px;
+    margin: 0%;
+    align-items: center;
+}
+.sign a{
+    color: #FFFFFF;
+    font-size: 14px;
+    text-decoration: none;
+}
+#log{
+    border-left: 1px solid gray;
+    padding: 7%;
+    align-items: center;
+}
+.kartinka{
+    height: 39px;
+    width: 195px;
+    margin-left: 35px;
+}
+.first{
+   background-color: #668C82;
+   height: 697px;
+   width: 100%;
+}
+.first{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.onene{
+    padding-left:4%;
+    width: 35%;
+}
+#fiirst{
+    font-size: 61px;
+    margin: 3%;
+    font-weight: normal;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+.pon{
+    font-size: 14px;
+    line-height: 3;
+    color: #ffffff;
+}
+.pon li{
+    list-style-type: none;
+}
+.btnone{
+    height: 22px;
+    width: 154px;
+    border: #FFFFFF 1px solid;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #00402f;
+}
+.second{ background-color: #849ACB;
+    height: 697px;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.texttwo{
+    font-size: 34px;
+}
+.mission{
+    font-size: 11px;
+}
+.onetwo{
+    width: 36%;
+    padding-right: 5%;
+}
+.btntwo{
+    height: 22px;
+    width: 160px;
+    border: #FFFFFF 5px solid;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #849ACB;
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: center;
+}
+.third{ background-color: #FFF4E3;
+    height: 697px;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.onethree{
+    padding-left:5%;
+    width: 38%;
+    color:#00402f;
+}
+#threee{
+    font-size: 50px;
+    margin:0;
+}
+.pthr{
+    margin-top: 5%;
+    font-size: 16px;
+    line-height: 1.5;
+    
+}
+.btnthree{
+    height: 25px;
+    width: 286px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #00402f;
+    margin-top: 4%;
+}
+.four {
+    background-color: #FFFFFF;
+    height: 697px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color:#00402f;
+}
+.onefour{
+    width: 64%;
+    height: 260px;
+    margin: 0;
+    padding: 0;
+}
+#four{
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+}
+.twofour{
+    text-align: center;
+    margin-top: 8%;
+}
+.five{
+    height: 2200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: #00402f;
+}
+.firstfive{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.secondfive{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.onefive{
+ width:35%;
+ font-size: 16px;
+ padding-left: 5%;
+}
+#fivve{
+    font-size: 36px;
+}
+.img{
+    margin: 5%;
+}
+.six{
+    background-color: #FFF4E3;
+    height: 697px;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.sixx{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.nazv{
+    font-size: 50px;
+    color: #00402f;
+}
+.seven{
+    background-color: #522840;
+    height: 697px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.b{  font-size: 34px;
+    width: 60%;
+    text-align: center;
+}
+.btnseven{
+    height: 25px;
+    width: 286px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    color: #00402f;
+    margin-top: 4%;
+    font-size: 14px;
+    font-weight: bold;
+}
+#imgg{
+    height: 40px;
+    width: 70px;
+}
+
+.lll{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 148px;
+    width: 82%;
+    margin-top: 5%;
+    margin-left: 7%;
+   
+}
+.onef{
+    width: 25%;
+    color: #00402f;
+}
+.onef p{
+    font-size: 12px;
+}
+.onef cite{
+    font-size: 19px;
+}
+.twof p{
+    text-align: right;
+    line-height: 0.5;
+    font-size: 12px;
+}
+.twofp{
+    padding-bottom: 7%;
+}
